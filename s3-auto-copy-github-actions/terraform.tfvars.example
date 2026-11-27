@@ -1,0 +1,4 @@
+aws_region           = "ap-south-1"
+source_bucket        = "temp"
+destination_bucket   = "perm"
+lambda_function_name = "s3-auto-copy-lambda"
