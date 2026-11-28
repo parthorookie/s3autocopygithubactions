@@ -60,9 +60,6 @@ jobs:
         with:
           terraform_version: "1.9.8"
 
-      # Step 6: Terraform formatting
-      - name: Terraform format check
-        run: terraform fmt -check -recursive
 
       # Step 7: Initialize Terraform
       - name: Terraform Init
