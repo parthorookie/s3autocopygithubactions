@@ -7,13 +7,13 @@ variable "aws_region" {
 variable "source_bucket" {
   description = "Existing source S3 bucket"
   type        = string
-  default     = "temp"
+  default     = "partho1"
 }
 
 variable "destination_bucket" {
   description = "Existing destination S3 bucket"
   type        = string
-  default     = "perm"
+  default     = "partho2"
 }
 
 variable "lambda_function_name" {
