@@ -22,8 +22,8 @@ jobs:
     env:
       AWS_REGION: ${{ vars.AWS_REGION || 'ap-south-1' }}
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'ap-south-1' }}
-      TF_VAR_source_bucket: ${{ vars.SOURCE_BUCKET || 'temp12313456' }}
-      TF_VAR_destination_bucket: ${{ vars.DESTINATION_BUCKET || 'perm1213' }}
+      TF_VAR_source_bucket: ${{ vars.SOURCE_BUCKET || 'partho1' }}
+      TF_VAR_destination_bucket: ${{ vars.DESTINATION_BUCKET || 'partho2' }}
       TF_VAR_lambda_function_name: ${{ vars.LAMBDA_FUNCTION_NAME || 's3-auto-copy-lambda' }}
       TF_IN_AUTOMATION: "true"
 
